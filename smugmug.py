@@ -109,7 +109,7 @@ class Image(SmugMugClient):
 
 
         # Image keys from largest to smallest
-        IMAGE_KEYS = ['OriginalURL', 'X2LargeURL', 'XLargeURL', 'LargeURL',
+        IMAGE_KEYS = ['OriginalURL', 'X3LargeURL', 'X2LargeURL', 'XLargeURL', 'LargeURL',
                       'MediumURL', 'SmallURL', 'TinyURL']
 
         for image_key in IMAGE_KEYS:
